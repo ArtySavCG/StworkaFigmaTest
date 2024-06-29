@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Stworka-progressbar</title>
+</head>
+<body>
+    <div class="container">
+        <div class="progress">
+            
+            <div class="circle">
+                <svg>
+                    <circle cx="30" cy="30" r="28" class="circle1"></circle>
+                    <circle cx="30" cy="30" r="28" class="circle2"></circle>
+                </svg>
+                <span id="progress-text">0/7</span>
+            </div>
+            <div class="progress-info">
+                <div class="checklist">Чеклист</div>
+                <div class="completed" id="progress-info-text">Выполнено: 0 из 7 действий</div>
+                <div class="next-action">Следующее действие: Созвониться с клиентом до 23.05.24 12:00</div>
+            </div>
+        </div>
+        <div class="checklist-button-container">
+            <button class="checklist-button">Открыть чеклист</button>
+        </div>
+    </div>
+</body>
+</html>
